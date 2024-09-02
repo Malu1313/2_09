@@ -1,0 +1,65 @@
+/*Estilos aplicados ao websit Prototipando...*/
+
+/*Seletor Universal - seleciona todos os elementos da página e aplica estilos comuns padronizados*/
+
+*{
+
+    margin: 0; /*remove a margem padrão de todos os elementos */
+    padding: 0; /*remove o padding de todos os elementos*/
+    box-sizing: border-box; /*Inclui bordas e preechimentos no cálculo da largura e da altura dos elementos*/
+}/*Fechamento do seletor universal*/
+
+body{
+    font-family:Arial, sans-serif; /*Define a fonte da pa´gina como Arial, com uma alternativa de sans-serif*/
+    background-color: rgb(161,0,161); /*Define a cor de fundo do código/ corpo do html*/
+    color:rgb(4, 4, 4); /*Define a cor do texto com um tom suave de branco*/
+}/*Fachamento do body
+
+/*Estilo do cabeçalho*/
+header {
+    background-color: #FBD0FF; /*Cor de fundo em hexadecimal*/
+    padding: 50px;
+    text-align: center; 
+} /*Fechamento do header*/
+
+header button{
+    right: 20px; /*Alinha o botão á direita, com 20px de distância da borda direita da página*/
+    top:20px; /*Alinha o botão ao topo com 20px de ditãncia da borda superior*/
+    position: absolute; /*Posiciona o botão de forma absoluta com relação */
+    background-color: #EE94F6;
+    color:rgb(0, 0, 0);
+    padding: 10px 20px; /*Define o espaço interno do botão em 10px(vertical) e 20px(horizontal)*/
+    border-radius: 5px; /*Arredonda os cantos do botão*/
+    border:none; /*Remove a borda padrão do botão*/
+    cursor: pointer; /*Define o cursor como um ponteiro ao passar sobre o botão*/
+}/*Fechamento do header button*/
+
+hearder h3{
+    /*Remove a margem e o padding padrão do h3 dentro do header*/
+    margin:0;
+    padding:0;
+} /*Fechamento header h3*/
+
+main{
+    padding: 40px;
+    text-align: center;
+}/*Fechamento main*/
+
+main img{
+    max-width: 150px; /*Define a largura máxima das imagens dentro da main como 150px*/
+} /*Fechamento main img*/
+
+section{
+    margin: 20px 0; /*Define a margem superior e inferior das seções como 20px e 0 para as laterais*/
+} /*Fechamento section*/
+
+/*Estilo do rodapé/footer*/
+footer{
+    background-color: #FBD0FF;
+    padding: 40px;
+    text-align: center;
+    bottom: 0; /*Alinha o rodapé abaixo da página*/
+    position:absolute; /*Posiciona o rodapé  de forma absoluta em relação ao body*/
+    width: 100%; 
+}/*Fechamento do footer*/
+
